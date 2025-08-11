@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+virtualenv/
+.python-version  # Used by tools like pyenv
+
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+.mypy_cache/  # Mypy type checker cache
+
+# Log files and database files
+*.log
+*.sqlite3  # For projects using SQLite
+*.db
+
+data/raw/
+data/processed/
+data/collections/
+
+*.bak

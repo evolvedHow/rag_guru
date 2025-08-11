@@ -1,0 +1,11 @@
+typing
+pydantic_ai
+chromadb
+dotenv
+
+
+# for embeddings manager
+llama_index
+llama_index.llms.ollama
+llama_index.vector_stores.chroma
+llama-index-embeddings-huggingface
