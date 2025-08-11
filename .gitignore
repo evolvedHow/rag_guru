@@ -19,8 +19,10 @@ dist/
 *.sqlite3  # For projects using SQLite
 *.db
 
-data/raw/
-data/processed/
-data/collections/
+# copy subdir structure by ignore data inside them
+data/*
+!data/raw/
+!data/processed/
+!data/collections/
 
 *.bak
