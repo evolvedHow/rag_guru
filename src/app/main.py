@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 # rescast all the sizes from .env into integer
-temp = os.getenv("_BATCH_SIZE",10)
+temp = os.getenv("_BATCH_SIZE", 10)
 _BATCH_SIZE = int(temp)
 
 temp = os.getenv('_BUFFER_SIZE_PDF', 4096)
